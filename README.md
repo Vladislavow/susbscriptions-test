@@ -11,3 +11,8 @@ on their chosen plan.
 4) Run `php artisan key:generate`
 5) Run `php artisan migrate`
 
+## Usage
+
+Postman
+collection: https://api.postman.com/collections/18780263-d0a89a51-7a39-404f-ad52-d481611288d0?access_key=PMAT-01GZYFGP6BM0QW37ZGBJ953Z9T 
+
