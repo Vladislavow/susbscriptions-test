@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    db:
+        image: mysql:latest
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: pass
+            MYSQL_DATABASE: publications
+            MYSQL_USER: vlad
+            MYSQL_PASSWORD: pass
+        ports:
+            - "3306:3306"
